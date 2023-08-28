@@ -1,141 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Task</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style5.css">
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Task</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style5.css">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body>
-    <div class="container">
-        <nav class="navbar navbar-expand-sm ">
-            <div class="container nav">
-              <a class="navbar-brand" href="#">
-                <img src="https://e7.pngegg.com/pngimages/359/566/png-clipart-veolia-text-veolia-logo-icons-logos-emojis-iconic-brands.png" alt="Logo" style="width: 140px;" class="rounded-pill">
-              </a>
-              <p style="color:white";>Back to Web3 wallet<i class="fa fa-hand-o-up" style="font-size:40px;color:#b9c120"></i></p>
-            </div>
-          </nav>
-        <div class="parent row">
-        <div class="image col-6 ">
-            <img src="https://e7.pngegg.com/pngimages/204/264/png-clipart-brown-owl-owl-t-shirt-cuteness-cute-owl-child-animals-thumbnail.png" alt="" width="100px" height="100px">
-            <p class="text-muted" style="color: beige; ">Welcome to your Dashboard</p>
-            <h3 style="color: blanchedalmond;">Michael<i class='fas fa-pen' style='font-size:48px;color:white'></i></h3>
-        </div>
-       
-        <div class="card  col-4 bg-dark">
-            <div class="card-body text-white">
-              <h5 class="card-title text-muted">Current Level</h5>
-              <h3 class="text">Enthusiast<a href="" style="text-decoration: none;color: antiquewhite;text-align: right;">3/10</a></h3>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width:30%"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <h1 style="color: aliceblue;text-align: start; font-family: Verdana, Geneva, Tahoma, sans-serif;">Your Stats</h1>
-     
-        
-    <div class="card-group col-12">
-        
-        <div class="card card1 text-white  mb-2 w-20">
-          <div class="card-body w-25">
-           
-          
-            <div class="circle circle1 z-depth-1-half">
-                <strong>5</strong>
-              
-            </div>
-            <!-- <input type="range" class="c-rng" min="0" max="360" step="1" value="75" data-range="circular" /> -->
-          </div>
-          <hr>
-          <P style="text-align: center;">Friends Invited</P>
-          <!-- <div class="card-footer">
-            <P>Friends Invited</P>
-             <small class=" text-white">Friends Invited</small> 
-          </div> -->
-        </div>
-        <div class="card  card2 text-white  mb-2">
-         
-          <div class="card-body w-25">
-            
-            
-            <div class="circle circle2">
-                <strong>2</strong>
-               
-            </div>
-          </div>
-          <hr>
-          <P style="text-align: center;">Friends Joined</P>
-          <!-- <div class="card-footer">
-            <small class=" text-white">Friends Joined</small>
-          </div> -->
-        </div>
-        <div class="card card3  text-white  mb-2">
-         
-          <div class="card-body w-25">
-          
-           
-            <div class="circle circle3">
-                <strong>28.36</strong>
-               <h6>USDC</h6>
-            </div>
-          </div>
-          <hr>
-          <P style="text-align: center;">Pending Rewards</P>
-          <!-- <div class="card-footer">
-            <small class=" text-white">Pending Rewards</small>
-          </div> -->
-        </div>
-        <div class="card  card4 text-white  mb-2">
-            
-            <div class="card-body w-25">
-             
-              
-              <div class="circle circle4">
-                <strong>162.50</strong>
-               <h6>USDC</h6>
-              </div>
-            </div>
-            <hr>
-          <P style="text-align: center;">Paid Out</P>
-            <!-- <div class="card-footer">
-              <small class=" text-white">Paid Out</small>
-            </div> -->
-          </div>
-          <div class="card card5 text-white  mb-2">
-           
-            <div class="card-body w-25">
-              
-              <div class="circle circle5 shadow-offset-down-md">
-               <strong>3</strong>
-               <h6>Days</h6>
 
-              </div>
-            </div>
-            <hr>
-          <P style="text-align: center;">Next Payout</P>
-            <!-- <div class="card-footer">
-              <small class=" text-white" style="text-align: center;">Next Payout</small>
-            
-            </div> -->
+<body>
+
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-sm ">
+      <div class="container nav">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://e7.pngegg.com/pngimages/359/566/png-clipart-veolia-text-veolia-logo-icons-logos-emojis-iconic-brands.png"
+            alt="Logo" style="width: 140px;" class="rounded-pill">
+        </a>
+        <p style="color:white" ;>Back to Web3 wallet<i class="fa fa-hand-o-up" style="font-size:40px;color:#b9c120"></i>
+        </p>
+      </div>
+    </nav>
+
+    <!-- profile secion  -->
+    <div class="container">
+      <div class="row mt-20">
+
+      <!-- left part  -->
+       <div class="image col-md-4 ">
+        <div class="profile-img">
+          <img src="https://e7.pngegg.com/pngimages/204/264/png-clipart-brown-owl-owl-t-shirt-cuteness-cute-owl-child-animals-thumbnail.png"
+          alt="" width="100px" height="100px">
+        </div>
+        
+
+          <div class="profile-content">
+            <p>Welcome to your Dashboard</p>
+            <h2>Michael</h2>
           </div>
       </div>
-      <div class="footer col-12">
-        
-        <img src="https://e7.pngegg.com/pngimages/763/901/png-clipart-toy-block-abc-child-text.png" alt="" width="80px" height="80px">
-        <p style="text-align: center; font-size: 18px;">Share Your Code and earn each time a Referred friend completes a swap </p>
-    
-        <strong style="color: aliceblue; font-size: 25px;">K H J D 1 8 5 4</strong>
-        <a href="">Copy Invite Code</a>
+
+      <div class="col-md-4"></div>
+
+      <!-- Right Part  -->
+      <div class="progress-parent col-md-4">
+        <p class="mb-2">Current Level</p>
+        <h3 class="mb-4">Enthusiast 3/10</h3>        
+        <div class="progress">
+          <div class="progress-bar bg-info" style="width:50%"></div>
+        </div>
+        </div>
+
       </div>
     </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+
+  <div class="container">
+    <h2>Your Stats</h2>
+    <!-- cards starts  -->
+    <div class="grid-container">
+
+      <!-- card 1  -->
+      <div class="grid-item">
+        <div class="card-1 pt-10">
+          <div class="pie"> 20%</div>
+          <div class="line"></div>
+          <div class="cta-card">
+            <a href="">Friends Invite</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 1  -->
+      <div class="grid-item">
+        <div class="card-1 pt-10">
+          <div class="pie"> 20%</div>
+          <div class="line"></div>
+          <div class="cta-card">
+            <a href="">Friends Invite</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 1  -->
+      <div class="grid-item">
+        <div class="card-1 pt-10">
+          <div class="pie"> 20%</div>
+          <div class="line"></div>
+          <div class="cta-card">
+            <a href="">Friends Invite</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 1  -->
+      <div class="grid-item">
+        <div class="card-1 pt-10">
+          <div class="pie"> 20%</div>
+          <div class="line"></div>
+          <div class="cta-card">
+            <a href="">Friends Invite</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 1  -->
+      <div class="grid-item">
+        <div class="card-1 pt-10">
+          <div class="pie"> 20%</div>
+          <div class="line"></div>
+          <div class="cta-card">
+            <a href="">Friends Invite</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <div class="container">
+    <div class="footer col-12">
+
+      <img src="https://e7.pngegg.com/pngimages/763/901/png-clipart-toy-block-abc-child-text.png" alt="" width="80px"
+        height="80px">
+      <p style="text-align: center; font-size: 18px;">Share Your Code and earn each time a Referred friend completes a
+        swap </p>
+  
+      <strong style="color: aliceblue; font-size: 25px;">K H J D 1 8 5 4</strong>
+      <a href="">Copy Invite Code</a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
